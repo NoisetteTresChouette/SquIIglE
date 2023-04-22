@@ -1,0 +1,201 @@
+50
+CURSOR C = (0,0)
+SET POSITION = (0,0)
+DIRECTION D = EAST
+
+BACK GROUND:
+    bf
+    KELP:
+        RIGHT KELP:
+            ig
+            ava 7V v.vvv.vvv p P=(49,43)
+            h 6V vvv.vvv l LINE (49,43) -> (43,43)
+            vav p
+            h vv l
+            vhv p
+            av l
+            vhv pl
+            C = (37,44)
+            D = EAST
+        LEFT KELP:
+            19V v.vvv.vvv.vvv.vvv.vvv.vvv
+            avvv p P=(34,13)
+            hh vv l
+            vhv p
+            avvv l
+            vav p
+            hvv l
+            vav p
+            hvv l
+            vhv p
+            avv l
+            C=(49,13)
+            D=SOUTH
+        MIDDLE KELP:
+            avvv p
+            avv l
+            vhv p
+            av l
+            vhv pl
+            C=(44,18)
+            D=EAST
+    BUBBLES:
+        iw
+        MEDIUM BUBBLE:
+            h 14V vv.vvv.vvv.vvv.vvv
+            h vvvv p P=(8,14)
+            vv l LINE (8,14) -> (8,12)
+            p vvavv l
+            p vv l
+            p vvavv l
+            p vv l
+            p vvavv l
+            p vv l
+            p vvavv l
+            C=(8,14)
+            D=WEST
+        SMALL BUBBLE:
+            a 9V vvv.vvv.vvv p P=(17,14)
+            vav l
+            vav p vav l
+            C=(16,15)
+            W=WEST
+        LARGE BUBBLE:
+            hh 18V vvv.vvv.vvv.vvv.vvv.vvv p P=(16,33)
+            a vvvhvvv l
+            p vvvv l
+
+            h vvv p P=(16,40)
+            hvhv l LINE (16,40) -> (15,39)
+
+            vvhv p P=(13,40)
+            vvvhvvv l
+            p vvvv l
+            p vvvhvvv l
+            p vvvv l
+            p vvvhvvv l
+            p vvvv l
+            C=(16,33)
+            W=NORTH
+SQUID:
+    BODY:
+        ir
+        a 7V v.vvv.vvv av p P=(17,26)
+        7V v.vvv.vvv h 7V v.vvv.vvv l LINE (17,26) -> (24,19)
+        p avv l
+        avp P=(26,20)
+        h vvvv l
+        p vvvavvv l
+        hvp P=(34,23)
+        h vvv l
+        vhv p av l
+        p vvhvv l
+        aa p P=(31,16) D=SOUTH
+        vv l
+        av p h vv l
+        p vvavv l
+        pvl
+        vhva p P=(38,21) D=EAST
+        vvv l
+        p vvavv l
+        p h vvhvv l
+        p a vvv l
+        vavh p v l p P=(37,33) D=EAST
+        vvavv l
+        p vv l
+        hva p vv l p P=(31,36) D=NORTH
+        a vvavv l
+        p hv l
+        vavh p P=(34,32) D=WEST
+        vvv l
+        hv p
+        vvvhvvv l
+        p avvvv l
+        hva p
+        vv l
+        p
+        7V v.vvv.vvv a 7V v.vvv.vvv l LINE (24,33) -> (17,26)
+        avf FILL (18,26)
+        C=(18,26)
+        D=SOUTH
+    FACE:
+        LEFT EYE:
+            iw
+            8V vv.vvv.vvv h vvvv pl P=(26,22)
+            in
+            vp avv l
+            a v p P=(28,22) D=EAST
+            a v l
+        MOUTH:
+            aa vv a vvv p P=(29,25) D=EAST
+            vhv l
+            avav pl
+        RIGHT EYES:
+            vvvhvvv p P=(26,30) D=EAST
+            hvv l
+            av p av l
+            iw
+            v pl
+        C=(26,31)
+        D=NORTH
+TITLE:
+    ROUGE:
+        ir
+        14V vv.vvv.vvv.vvv.vvv a v p P=(12,30) D=WEST
+        vv l
+        vhv pl
+        h vvvv p P=(12,31) D=EAST
+        a 5V vv.vvv l
+        vav p vv l
+        vav p vv l
+        vav p vv l
+        vvvav p P=(8,33) D=NORTH
+        vv l
+        vhv p vv l
+        vhv p 5V vv.vvv l
+        vhv p vv l
+        vhv pl P=(11,33) D=NORTH
+        vvhv p vv l
+        vvvv p P=(9,40)
+        vl
+        hhvvhv p
+        7V v.vvv.vvv l C=(1,39)
+        h 14V vv.vvv.vvv.vvv.vvv p P=(1,3)
+        vv l vhv pl
+        h vvvv p P=(2,2)
+        a vv l
+        vav p vv l
+        vhv p vv l
+        vhv p vv l
+        vhv pl P=(8,2) D=NORTH
+        h 6V vvv.vvv
+        p a vv l
+        vhv p vv l
+        vhv p 6V vvv.vvv l
+        h vvv h vvv p P=(9,9)
+        h vv l
+        vvv a v p P=(8,14) D=NORTH
+        vv l
+        h vvv p
+        h vv l
+        vhv p v l
+        C=(9,15)
+        D=WEST
+    MAGENTA:
+        im
+        hh vvvv p P=(9,19)
+        6V vvv.vvv l
+        aa vv p
+        h 7V v.vvv.vvv l
+        vhvv p P=(1,25)
+        hh 6V vvv.vvv l
+        hh vv p
+        h 7V v.vvv.vvv l
+        va 22V v.vvv.vvv.vvv.vvv.vvv.vvv.vvv p P=(9,43) D=EAST
+        a 8V vv.vvv.vvv l
+        p h vvvv l
+        h vvvv hv p vvv l
+        a vvvv av p
+        vvv l
+        C=(9,47)
+        D=EAST
